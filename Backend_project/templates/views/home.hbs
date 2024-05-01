@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>bootstrap_links}}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    {{>nav}}
+
+    {{!-- hero section starts --}}
+    <div class="container-fluid" style="margin-top: 6rem;">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto data1">
+                {{!-- left side --}}
+                <div class="col-md-6 col-12 hero-text order-md-0 order-1">
+                    <h1>WE WILL HELP YOU TO</h1>
+                    <h1>GROW YOUR BUSINESS💹</h1>
+                    <p>We are the team of <span class="bold-style">Professional Developers🤓💻</span></p>
+                    <button class="btn order-1-btn">Read More</button>
+                </div>
+                {{!-- right side --}}
+                <div class="col-md-6 col-12 hero-text order-md-1 order-0 img-block">
+                    <figure>
+                        <img src="images/img1.png" alt="img1">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{!-- hero section ends --}}
+
+    {{>aboutData}}
+    {{>servicesData}}
+    {{>contactData}}
+    {{>footer}}
+
+
+</body>
+
+</html>

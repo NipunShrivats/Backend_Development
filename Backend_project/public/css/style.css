@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(232, 232, 232);
+    scroll-behavior: smooth;
+}
+
+/* html{} */
+
+.img-block {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-block img {
+    width: 25rem;
+}
+
+.data1 {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-1-btn {
+    background-color: rgb(177, 177, 177);
+}
+
+/* -------------------------------------------- */
+
+.about {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+.about img {
+    width: 25rem;
+}
+
+.about .about-main {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about .about-right {
+    /* border: 2px solid red; */
+    width: 40rem;
+}
+
+/* ------------------------------------- */
+
+.services {
+    margin-top: 6rem;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services-row {
+    /* border: 2px solid red; */
+    width: 90rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+/* ----------------------------------- */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .map {
+    /* border: 2px solid red; */
+}
+
+.contact .map iframe {
+    width: 42rem;
+    height: 31rem
+}
+
+.contact-area {
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-area .form-area {
+    margin-left: 20px;
+}
+
+.form-area {
+    background-color: aliceblue;
+    /* border: 2px solid red; */
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+.form-area h1 {
+    margin-bottom: 2rem;
+    /* border: 2px solid red; */
+}
+
+.form-area form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-area input {
+    /* border: 2px solid red; */
+    /* width: 20rem; */
+    height: 2rem;
+    padding-left: .2rem;
+    /* margin-bottom: -20px; */
+}
+
+.contact-area textarea {
+    padding-left: .2rem;
+    /* border: 2px solid red; */
+}
+
+label {}
+
+.submit-btn {
+    margin-top: 1rem;
+}
+
+/* ---------------------------------------
+ */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    /* border: 2px solid red; */
+    background-color: azure;
+}
+
+.footer p {
+    /* border: 2px solid red; */
+    font-size: larger;
+    margin-top: 1.5rem;
+}
+
+/* ------------------------------------- */
+
+.gallery-page {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
